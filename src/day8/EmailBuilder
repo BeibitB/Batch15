@@ -1,0 +1,17 @@
+package day8;
+
+public class EmailBuilder {
+    public static void main(String[] args) {
+        String firstName = "Beibit";
+        String lastName = "Baimuaratov";
+        String company = "Google";
+
+        String email = "BeibitBaimuratov@gmail.com";
+
+        System.out.println("My name is " + firstName + " " + lastName + "," + "and I work for: " + company + " and my email is: " +
+            email);
+
+
+
+    }
+}
